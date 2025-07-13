@@ -1,0 +1,24 @@
+{
+	"name": "shiny-feather-4c46",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest",
+		"cf-typegen": "wrangler types"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"typescript": "^5.5.2",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.24.3"
+	},
+	"dependencies": {
+		"@neondatabase/serverless": "^0.10.4",
+		"bcryptjs": "^3.0.2",
+		"hono": "^4.8.4",
+		"jose": "^6.0.11"
+	}
+}
